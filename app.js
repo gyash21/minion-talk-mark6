@@ -1,5 +1,5 @@
 var btnTranslate = document.querySelector("#btn-translate");
-var txnInput = document.querySelector("#txn-input");
+var txtInput = document.querySelector("#txt-input");
 var outputDiv = document.querySelector("#output");
 
 
@@ -13,14 +13,14 @@ function getTranslationURL(input) {
 
 
 function clickHandler() {
-    var inputText = textInput.value;
+    var inputText = txtInput.value;
 
 
 
     fetch(getTranslationURL(inputText))
         .then(response => response.json())
         .then(json => {
-            var translatedText = json.contents.translatedText;
+            var translatedText = json.contents.translated;
             outputDiv.innerText = translatedText;
         })
 };
