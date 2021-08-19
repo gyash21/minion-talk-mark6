@@ -13,7 +13,7 @@ body{
     text-align: center;
     font-size: larger;
     height: 100px;
-    background-color: #7d7cb6;
+    background-color: #60c4cf;
 }
 h1{
     font-family: 'Bebas Neue' , cursive;
@@ -23,7 +23,7 @@ h1{
 
 #btn-translate{
     font-family: 'Bebas Neue' , cursive;
-    background-color: rgb(124, 204, 87);
+    background-color: rgb(255, 219, 12);
     font-size: larger;
     position: absolute;
     left: 600px;
